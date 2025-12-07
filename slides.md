@@ -1,8 +1,9 @@
+<!-- marp: true -->
 ---
 marp: true
-theme: custom
-paginate: true
 title: Product Documentation Deck
+paginate: true
+theme: custom
 class: lead
 ---
 
@@ -20,8 +21,8 @@ footer {
 }
 </style>
 
-# Product Documentation  
-### Technical Writer Presentation  
+# Product Documentation
+### Technical Writer Presentation
 **Contact:** 23f1002718@ds.study.iitm.ac.in
 
 ---
