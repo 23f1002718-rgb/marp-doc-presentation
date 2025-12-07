@@ -1,8 +1,8 @@
 ---
 marp: true
-title: Product Documentation Deck
-paginate: true
 theme: custom
+paginate: true
+title: Product Documentation Deck
 class: lead
 ---
 
