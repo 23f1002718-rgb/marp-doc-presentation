@@ -1,10 +1,10 @@
-<!-- marp: true -->
+<!--marp: true-->
 ---
-marp: true
-title: Product Documentation Deck
-paginate: true
-theme: custom
-class: lead
+marp:true
+title:Product Documentation Deck
+paginate:true
+theme:custom
+class:lead
 ---
 
 <!-- Custom Theme -->
