@@ -2,8 +2,8 @@
 marp: true
 title: Product Documentation Deck
 paginate: true
-theme: custom
-class: lead
+theme: default
+math: katex
 ---
 
 <!-- Custom Theme -->
@@ -14,14 +14,10 @@ section {
 h1 {
   color: #004aad;
 }
-footer {
-  font-size: 12px;
-  color: #555;
-}
 .feature-box {
-  padding: 20px;
+  padding: 16px;
   border: 2px solid #004aad;
-  border-radius: 10px;
+  border-radius: 8px;
   background: #eef6ff;
 }
 </style>
@@ -38,40 +34,36 @@ footer {
 - Version control strategy  
 - Multi-format export  
 - Custom themes  
-- Algorithmic complexity (with equations)
+- Algorithmic complexity (math)
 
 ---
 
-# Background Image Slide
+<!-- _class: lead -->
+<!-- _backgroundColor: #ecefff -->
 
-![bg opacity=0.25](https://images.unsplash.com/photo-1518770660439-4636190af475)
+# Background Image Example
 
-## System Architecture
-
-- Microservices  
-- API gateway  
-- Load balancing  
-- CI/CD pipeline  
+![bg cover](https://images.unsplash.com/photo-1518770660439-4636190af475)
 
 ---
 
-# Custom Styled Block
+# Custom Styling Block
 
 <div class="feature-box">
-This box is styled using the custom CSS theme embedded in this Marp slide deck.
+  This text is styled using a custom CSS block inside the Marp file.
 </div>
 
 ---
 
 # Algorithmic Complexity (Math)
 
-Binary Search:
+Binary search:
 
 \[
 T(n) = T(n/2) + O(1) = O(\log n)
 \]
 
-Space Complexity:
+Space complexity:
 
 \[
 S(n) = O(1)
@@ -79,16 +71,16 @@ S(n) = O(1)
 
 ---
 
-# Version-Control Friendly Docs
+# Version-Controlled Documentation
 
-- Markdown-based  
-- Easily diffable and reviewable  
-- Exportable to PDF/HTML/PPTX using Marp CLI  
-- Works in GitHub Actions for automated builds  
+- Markdown based  
+- Works with GitHub  
+- Diffable  
+- Exportable to HTML/PDF/PPTX via Marp CLI  
+- Ideal for engineering teams  
 
 ---
 
 # Thank You
 
-For documentation requests:  
 **23f1002718@ds.study.iitm.ac.in**
